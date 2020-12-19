@@ -31,5 +31,5 @@ else:
 
 engine = pyttsx3.init()
 engine.setProperty('rate', 215)
-#engine.say(c)
-#engine.runAndWait()
+engine.say(c)
+engine.runAndWait()
