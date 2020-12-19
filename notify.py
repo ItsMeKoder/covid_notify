@@ -1,13 +1,16 @@
-import signal
-
+import platform
 from main import cases
-import notify2
 
-appname="Covid Cases in India"
+appname="Covid Cases in Haryana"
 iconfile = './favicon.png'
 
+c_platform=platform.system()
 
-
-notify2.init(appname)
-notification = notify2.Notification(appname, cases)
-notification.show()
+if c_platform == 'Linux':
+   import notify2
+   notify2.init(appname)
+   notification = notify2.Notification(appname, cases)
+   notification.show()
+elif c_platform == 'Darwin':
+   import pync
+   pync.notify(cases,title=appname)
