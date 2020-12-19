@@ -1,30 +1,35 @@
-#!/bin/python3
 
-import json
-import requests
-
-
-url="https://covid19.cloudeya.org/dec2020"
-
-payload = {}
-headers = {
-  'Content-Type': 'application/json',
-  'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3RhcGkxIiwiaWF0IjoxNjA4MzYyMjU1LCJleHAiOjE2MDg1NjIyNTV9.IKDx4yHOaoIZhzni4zmp2tIAc1my4amCV0oA-zVMaXs'
-}
-
-response = requests.request("GET", url, headers=headers, data = payload)
-json_dat=response.text
+import platform
+from case import cases,deaths,recovered,active,confirmed
+import pyttsx3
+from notifypy import Notify
 
 
-with open('./cases.json','w')as json_file:
-    json_file.write(json_dat)
 
-json_file=open('./cases.json','r')
-latest=json.load(json_file)['Document'][258]
-state=latest["combined_key"]
-deaths=latest["deaths"]
-confirmed=latest["confirmed"]
-recovered=latest["recovered"]
-active=latest["active"]
-cases= "State : "+str(state)+"\nDeaths : "+str(deaths)+"\nConfirmed : "+str(confirmed)+"\nRecovered : "+str(recovered)+"\nActive : "+str(active)
-#print("cases")
+appname="Covid Cases in Haryana"
+iconfile = './icon.png'
+
+c="In Haryana,"+" people died are "+str(deaths)+". Active cases are "+str(active)+". Patients recovered are "+str(recovered)+". Total cases confirmed are "+str(confirmed)
+print(c)
+
+
+c_platform=platform.system()
+
+if c_platform == 'Linux':
+   import notify2
+   notify2.init(appname)
+   notification = notify2.Notification(appname, cases)
+   notification.show()
+
+else:
+   notification = Notify(default_notification_title="Function Message", default_application_name="Covid-19 Cases", default_notification_icon="./icon.png", default_notification_audio="./sound.wav")
+   notification.icon='./icon.png'
+   notification.message = c
+   notification.send()
+
+
+
+engine = pyttsx3.init()
+engine.setProperty('rate', 215)
+engine.say(c)
+engine.runAndWait()

@@ -3,5 +3,5 @@
 ## To Run
 
 ```
-python3 notify.py
+python3 main.py
 ```
