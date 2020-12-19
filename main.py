@@ -27,4 +27,4 @@ confirmed=latest["confirmed"]
 recovered=latest["recovered"]
 active=latest["active"]
 cases= "State : "+str(state)+"\nDeaths : "+str(deaths)+"\nConfirmed : "+str(confirmed)+"\nRecovered : "+str(recovered)+"\nActive : "+str(active)
-print("Seup complete.")
+print("Setup complete.")
