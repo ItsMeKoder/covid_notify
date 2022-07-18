@@ -45,5 +45,3 @@ def notify():
     tts = gtts.gTTS(result.text, lang=config.Language[:2])
     tts.save("main.mp3")
     playsound("main.mp3")
-
-

@@ -4,7 +4,7 @@ import json
 import requests
 
 from config import State
-url="https://covid19.cloudeya.org/dec2020"
+url="http://covid19.cloudeya.org/july2022"
 
 payload = {}
 headers = {

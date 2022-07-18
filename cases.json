@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Delivering Intelligent Systems | Cloudeya Limited</title>
+
+	<!-- Meta -->
+	<meta name="revisit-after" content="2 days">
+	<meta name="robots" content="all">
+	
+	<meta name="description" content="Cloudeya design, build and continuously improves its data enabling product for small and medium-sized enterprises and Government customers. We specialise in migrating legacy software applications and data sets to the public cloud while providing dedicated support when required. We utilise our proprietary technology stacks and automation scripts in the provision of highly secure solutions for our customers.">
+	<meta name="keywords" content="cloudeya, cloudeya limited, software, machine learning, data, mobile, automation, aws, google cloud, azure, developer, accessibility, london, united kingdom">
+
+	<!-- Open Graph -->
+	<meta property="og:site_name" content="Delivering Intelligent Systems | Cloudeya Limited">
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="" />
+	<meta property="og:url" content="https://cloudeya.org/" />
+	<meta property="og:description" content="Cloudeya design, build and continuously improves its data enabling product for small and medium-sized enterprises and Government customers. We specialise in migrating legacy software applications and data sets to the public cloud while providing dedicated support when required. We utilise our proprietary technology stacks and automation scripts in the provision of highly secure solutions for our customers." />
+
+	
+	<!-- Favicon -->
+	<link rel="shortcut icon" type="image/x-icon" href="https://cloudeya.org/assets/images/favicon.ico" >
+
+	<!-- Styles -->
+	<link rel="stylesheet" href="/dist/bundle.css">
+	<link type="text/css" href="./fluidbox/css/fluidbox.min.css" media="all" rel="stylesheet" />
+	<link rel='stylesheet' id='font-awesome-css' href='//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css?ver=1' type='text/css' media='all' />
+	<link rel='stylesheet' href="https://fonts.googleapis.com/css?family=DM+Sans:400,400i,700&amp;display=optional" type='text/css' media='all' />
+
+	<!-- RSS -->
+	<link rel="alternate" type="application/rss+xml" title="Delivering Intelligent Systems | Cloudeya Limited" href="https://cloudeya.org/feed.xml">
+
+	<!-- Load jQuery -->
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+	<!-- Load plugins -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-throttle-debounce/1.1/jquery.ba-throttle-debounce.min.js"></script>
+	<script type="text/javascript" src="./fluidbox/js/jquery.fluidbox.min.js"></script>
+
+	<!-- JS Functions -->
+	<script>
+	    $(function () {
+
+	        // You can use any kind of selectors for jQuery Fluidbox
+	        $("a[data-fluidbox]").fluidbox();
+
+		});
+	</script>
+
+	
+
+    <script type="text/javascript">
+    var host = "cloudeya.org";
+    if ((host == window.location.host) && (window.location.protocol != "https:"))
+        window.location.protocol = "https";
+    </script>
+
+</head>
+
+
+	<body>
+
+		<header class="header" role="banner">
+	<div class="container">
+		<nav class="header-nav">
+			<a href="/">
+			<img src="/assets/images/logo_dark.svg" alt="Cloudeya Logo">
+			</a>
+		</nav>
+	</div>
+</header>
+
+
+		<main class="section" aria-labelledby="page-title">
+	<div class="container">
+		<h1 id="page-title" class="article-title"></h1>
+		<section class="section" aria-labelledby="page-title">
+	<div class="container">
+
+		<p>We specialise in migrating legacy applications and data sets to the public cloud while providing dedicated support when required. We utilise our proprietary technology stacks and automation scripts to offer highly secure solutions for our customers.</p>
+
+		<p>In addition to our data and software services, we showcase our expanding portfolio of operated and owned (O+O) digital properties across the automotive sector, business, personal finance, news, sports, and tech.</p>
+
+		<p>We leverage our media buying capabilities and activate online advertising campaigns for your business or service, brand and engage millions of audiences locally/nationally and globally through Cloudeya Limited's platforms across audio channels, computers, mobile devices and TVs. Additionally, hyper-targeting multicultural audiences are one of our fortes.</p>
+
+		<p>Want to learn more about our innovating media buying initiatives or would like a consultation for your business or brand, you can get in touch with us via <a href="mailto:&#116;&#101;&#099;&#104;&#064;&#099;&#108;&#111;&#117;&#100;&#101;&#121;&#097;&#046;&#111;&#114;&#103;?subject=Business%20Inquiries">e-mail</a>, and we will get back to you within three days (that’s our <a href="https://en.wikipedia.org/wiki/Service-level_agreement" target="_blank">SLA</a>).</p>
+	
+		<p><strong>BRANDS</strong></p>
+
+		<div class="flex-brands">
+			<div class="flex-brands-child hostgeber">
+				<a href="https://hostgeber.com" target="_blank">
+					<img src="/assets/images/hostgeber_logo.svg" alt="Hostgeber Logo">
+				</a>
+			</div>
+			<div class="flex-brands-child domainporter">
+				<a href="https://domainporter.com" target="_blank">
+					<img src="/assets/images/domainporter_logo.svg" alt="Domainporter Logo">
+				</a>
+			</div>
+			<div class="flex-brands-child scoresboard">
+				<a href="https://scoresboards.com" target="_blank">
+					<img src="/assets/images/scoresboard_logo.svg" alt="Scoresboard Logo">
+				</a>
+			</div>
+			<!-- <div class="flex-brands-child notifica">
+				<a href="https://getnotifica.com" target="_blank">
+					<img src="/assets/images/notifica_logo.svg" alt="Notifica Logo">
+				</a>
+			</div> -->
+		</div>
+
+	</div>
+</section>
+
+	</div>
+</main>
+
+
+		<footer class="footer" role="contentinfo">
+	<div class="container">
+		<p class="footer-copyright">&copy; 2022 <a href="https://cloudeya.org">Cloudeya Limited</a> 🇬🇧</p>
+	</div>
+
+</footer>
+
+	</body>
+</html>
